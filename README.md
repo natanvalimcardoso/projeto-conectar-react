@@ -314,38 +314,6 @@ frontend/
 - ✅ **UX**: Loading states e feedback visual
 - ✅ **Segurança**: Interceptors e proteção de rotas
 
-```
-fullstack-project/
-│   │   ├── store/           # Redux Toolkit
-│   │   │   └── slices/      # Estados da aplicação
-│   │   ├── services/        # APIs e HTTP client
-│   │   ├── types/           # TypeScript interfaces
-│   │   └── __tests__/       # Testes
-│   └── package.json
-└── backend/                 # API NestJS  
-    ├── src/
-    │   ├── auth/            # Módulo de autenticação
-    │   │   ├── dto/         # Data Transfer Objects
-    │   │   ├── guards/      # Guards de autorização
-    │   │   ├── strategies/  # Estratégias Passport (JWT, Local)
-    │   │   ├── decorators/  # Decoradores customizados
-    │   │   ├── auth.service.ts
-    │   │   ├── auth.controller.ts
-    │   │   └── auth.module.ts
-    │   ├── users/           # Módulo de usuários
-    │   │   ├── dto/         # DTOs para usuários
-    │   │   ├── users.service.ts
-    │   │   ├── users.controller.ts
-    │   │   └── users.module.ts
-    │   ├── entities/        # Entidades TypeORM
-    │   │   └── user.entity.ts
-    │   ├── database/        # Scripts e seed
-    │   │   └── seed.ts
-    │   └── main.ts          # Ponto de entrada
-    ├── test/                # Testes E2E
-    └── package.json
-```
-
 ---
 
 # 🎨 Frontend - React + TypeScript
